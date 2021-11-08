@@ -1,6 +1,6 @@
 <?php
 
-namespace RedLight;
+namespace Nbll\RedLight;
 
 use Illuminate\Support\ServiceProvider;
 
