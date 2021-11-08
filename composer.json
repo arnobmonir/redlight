@@ -1,0 +1,26 @@
+{
+    "name": "nbll/redlight",
+    "description": "Hold the project tail",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Nbll\\Redlight\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Arnob Monir",
+            "email": "aarnob.monir@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+    "laravel": {
+        "providers": [
+            "Nbll\\Redlight\\RedLightServiceProvider"
+        ]
+    }
+}
+}
